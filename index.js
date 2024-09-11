@@ -24,6 +24,7 @@ ${data.description}
  - [License](#license)
  - [Contribute](#contribute)
  - [Tests](#tests)
+ - [Contact](#contact)
 
 ## Installation
     
@@ -45,6 +46,12 @@ ${data.contribute}
 ## Tests
     
 ${data.test}
+
+## Contact
+    
+Check out my github repos at https://github.com/${data.github}
+    
+If you wish to contact me, please email me at ${data.email}
 `
 
   // TODO: Create a function to write README file

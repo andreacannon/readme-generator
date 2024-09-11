@@ -28,6 +28,16 @@ function getUserQuestions(){
     },
     {
       type: "input",
+      message: "Github username?",
+      name: "github"
+    },
+    {
+      type: "input",
+      message: "What is your email?",
+      name: "email"
+    },
+    {
+      type: "input",
       message: "How to contribute?",
       name: "contribute"
     },
