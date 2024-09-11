@@ -76,4 +76,4 @@ For any additional questions, you can contact me via email.
 
 ### Deployed site:
 
-![Generator Walkthrough](homework/readme-generator/assets/walkthrough.mp4)
+![Generator Walkthrough]
