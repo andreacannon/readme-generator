@@ -50,7 +50,7 @@ To use the README Generator, follow these steps:
 
 The README Generator provides a list of license options to choose from. A badge for the selected license will be displayed near the top of the generated README file, and a notice will be included in the License section to explain which license the application is covered under.
 
-## Contribute
+## Contributing
 
 Contributions are welcome! If you'd like to contribute to the README Generator project, please follow these guidelines:
 
@@ -59,21 +59,22 @@ Create a new branch for your changes.
 Commit your changes with a descriptive message.
 Push your changes to your forked repository.
 Open a pull request to the main repository.
-Tests
+
+## Tests
 
 To ensure the README Generator works correctly, run the test suite using:
 
 Copy code to command line:
 npm test
-Questions
+
+## Questions
 
 If you have any questions or need further assistance, please feel free to reach out:
 
-GitHub Profile: andreacannon
+Check out my github repos at https://github.com/andreacannon
 Email: canno131@umn.edu
 For any additional questions, you can contact me via email.
 
 
-### Deployed site:
-
-![Generator Walkthrough]
+### Walkthrough on how to use the page:
+![Generator Walkthrough](assets/screenshot.mp4)
