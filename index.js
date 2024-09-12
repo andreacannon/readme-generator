@@ -11,11 +11,9 @@ async function start(){
   const data = await inquirer.prompt(getQuestions);
   const result = 
 `
-# ${data.title}
-    
-## Description
-    
-${data.description}
+## Title 
+
+ ${data.title}
     
 ## Table of Contents
  - [Description](#description) 
@@ -26,8 +24,12 @@ ${data.description}
  - [Tests](#tests)
  - [Contact](#contact)
 
-## Installation
+## Description
     
+${data.description}
+
+ ## Installation
+      
 ${data.installation}
     
 ## Usage
@@ -47,10 +49,12 @@ ${data.contribute}
     
 ${data.test}
 
-## Contact
+## Github
     
 Check out my github repos at https://github.com/${data.github}
-    
+
+## Email
+
 If you wish to contact me, please email me at ${data.email}
 `
 

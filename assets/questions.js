@@ -17,14 +17,24 @@ function getUserQuestions(){
     },
     {
       type: "input",
-      message: "How to use app?",
+      message: "How to use this project?",
       name: "usage"
     },
     {
       type: "list",
-      message: "Licenses?",
+      message: "Choose a License?",
       name: "license",
       choices: licenseOptions
+    },
+    {
+      type: "input",
+      message: "Contribution Guidlines?",
+      name: "contribute"
+    },
+    {
+      type: "input",
+      message: "How to test this project?",
+      name: "test"
     },
     {
       type: "input",
@@ -33,18 +43,8 @@ function getUserQuestions(){
     },
     {
       type: "input",
-      message: "What is your email?",
+      message: "What is your email address?",
       name: "email"
-    },
-    {
-      type: "input",
-      message: "How to contribute?",
-      name: "contribute"
-    },
-    {
-      type: "input",
-      message: "How to test the project?",
-      name: "test"
     },
   ]
 };
